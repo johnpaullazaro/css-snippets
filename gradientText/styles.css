@@ -1,0 +1,19 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+
+h1 {
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(180deg,#4a00f6,#eb831c);
+    font-size:90px;
+    font-weight: bold;
+}
+
+img {
+    height:300px;width:auto;
+    margin-top: -20px;margin-left:-50px;
+}

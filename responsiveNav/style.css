@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    background-color:beige;
+    margin-bottom: 40px;
+}
+
+.left-sidebar {
+    width:20%;
+    background-color:white;
+    height: 100%;
+    float:left; 
+    padding:20px;
+    margin:20px;
+    border-radius: 20px;
+ }
+
+ .main-content {
+    width:100%;
+    background-color:white; 
+    height: 100%;padding:20px;
+    margin:20px;
+    border-radius: 20px;
+ }
+
+ .right-sidebar {
+    width:30%;
+    float: right;
+    background-color:white; 
+    height: 100%;padding:20px;   
+    margin:20px;
+    border-radius: 20px;
+ }
+
+
+
+ @media screen and (max-width:960px) {
+
+    .left-sidebar {
+       display:none;
+    } 
+ }
+
+ @media screen and (max-width:480px) {
+
+    .right-sidebar {
+       display:none;
+    } 
+ }

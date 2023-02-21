@@ -1,0 +1,20 @@
+
+ul li {
+    display: inline-block; 
+}
+ 
+.menu-item {
+    background:rgb(59, 183, 255);
+    margin:4px;
+    padding:40px;
+    width: auto;
+}
+.menu-item:hover {
+    background:rgb(9, 107, 163);
+    cursor: pointer;
+}
+
+.menu-item i {
+    color:white;
+    font-size: 32px;
+}

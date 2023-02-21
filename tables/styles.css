@@ -1,0 +1,23 @@
+
+table {
+    width: 50%;
+}
+
+th {
+    text-align: left;
+    background-color: cornflowerblue;
+    padding:10px;
+    color:white;
+}
+
+td {
+    padding-left:10px;
+    padding-top: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(239, 239, 239); 
+}
+
+
+

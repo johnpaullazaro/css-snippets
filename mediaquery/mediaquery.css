@@ -1,0 +1,12 @@
+ 
+ .left-sidebar {
+    width:20%;
+    background-color:red;
+    height: 100%;
+ }
+
+ .main-content {
+    width:100%;
+    background-color:blue;
+    height: 100%;
+ }
