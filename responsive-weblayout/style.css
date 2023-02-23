@@ -1,3 +1,7 @@
+*{
+   box-sizing: border-box;
+}
+
 body{
     display: flex;
     background-color:beige;
@@ -31,24 +35,25 @@ body{
 
  
  @media screen and (max-width:960px) {
+    
       body{
          display: block;  
       } 
       .left-sidebar {
          background-color: red;
          float: none;
-         width: 90%;
+         width: 100%;
          margin: 0px; 
          margin-top:20px;
       }    
       
       .main-content {
-         width: 90%;
+         width: 100%;
          margin: 0px;
          margin-top:20px;
       }   
       .right-sidebar {
-         width: 90%;
+         width: 100%;
          margin: 0px;
          margin-top:20px;
       }   
